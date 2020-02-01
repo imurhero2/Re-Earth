@@ -10,12 +10,15 @@ public class Orbit : MonoBehaviour
     private Vector3 LocalRotation;
     private Vector3 mouseReference;
     private Vector3 mouseOffset;
-    private float CameraDistance = 10F;
+    private float CameraDistance;
 
     public float MouseSensitivity = 0.5F;
     public float ScrollSensitivity = 2F;
     public float OrbitDampening = 10F;
     public float ScrollDampening = 6F;
+
+    public float minZoom;
+    public float maxZoom;
 
     public bool CameraDisabled = false;
     private bool isRotating;
@@ -24,6 +27,7 @@ public class Orbit : MonoBehaviour
     {
         this.XFormCamera = this.transform;
         this.XFormParent = this.transform.parent;
+        CameraDistance = maxZoom;
     }
 
 
@@ -52,7 +56,7 @@ public class Orbit : MonoBehaviour
 
                 this.CameraDistance += ScrollAmount * -1f;
 
-                this.CameraDistance = Mathf.Clamp(this.CameraDistance, 1.5f, 100f);
+                this.CameraDistance = Mathf.Clamp(this.CameraDistance, minZoom, maxZoom);
             }
 
         }
@@ -67,7 +71,7 @@ public class Orbit : MonoBehaviour
 
         }
 
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButton(2))
         {
             isRotating = true;
 
