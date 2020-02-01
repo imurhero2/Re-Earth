@@ -77,7 +77,6 @@ public class AIMovement : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("AI Collision");
         if (other.gameObject.tag != "Planet")
         {
             moving = false;
