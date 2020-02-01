@@ -7,9 +7,8 @@ public class AnimalMovement : MonoBehaviour
     public GameObject Planet;
     public Rigidbody rb;
 
-    public float speed = 4;
+    //public float speed = 4;
     private float gravity = 100;
-
     private float distanceToGround;
     private Vector3 groundNormal;
     private bool onGround;
@@ -22,21 +21,21 @@ public class AnimalMovement : MonoBehaviour
     private void Update()
     {
         // Movement
-        float x = Input.GetAxis("Horizontal") * Time.deltaTime * speed;
-        float y = Input.GetAxis("Vertical") * Time.deltaTime * speed;
+        //float x = Input.GetAxis("Horizontal") * Time.deltaTime * speed;
+        //float y = Input.GetAxis("Vertical") * Time.deltaTime * speed;
 
-        transform.Translate(x, 0, y);
+        //transform.Translate(x, 0, y);
 
         // Local Rotation
-        if (Input.GetKey(KeyCode.E))
-        {
-            transform.Rotate(0, 150 * Time.deltaTime, 0);
-        }
+        //if (Input.GetKey(KeyCode.E))
+        //{
+        //    transform.Rotate(0, 150 * Time.deltaTime, 0);
+        //}
 
-        if (Input.GetKey(KeyCode.Q))
-        {
-            transform.Rotate(0, -150 * Time.deltaTime, 0);
-        }
+        //if (Input.GetKey(KeyCode.Q))
+        //{
+        //    transform.Rotate(0, -150 * Time.deltaTime, 0);
+        //}
 
         // GroundControl
         RaycastHit hit = new RaycastHit();
