@@ -20,15 +20,14 @@ public class ObjectPlacement : MonoBehaviour
             if (Physics.Raycast (ray, out hit, planetLayer))
             {
                 Debug.DrawLine(ray.origin, hit.point);
-            }
+                if (Physics.OverlapSphere(hit.point, 3, defaultLayer).Length < 1)
+                {
+                    // Calculate appropriate rotation based on planet.
+                    Quaternion toRotation = Quaternion.FromToRotation(transform.up, hit.normal) * transform.rotation;
 
-            if (Physics.OverlapSphere(hit.point, 3, defaultLayer).Length < 1)
-            {
-                // Calculate appropriate rotation based on planet.
-                Quaternion toRotation = Quaternion.FromToRotation(transform.up, hit.normal) * transform.rotation;
-
-                // Spawn object
-                Instantiate(objectToSpawn, hit.point, toRotation);
+                    // Spawn object
+                    Instantiate(objectToSpawn, hit.point, toRotation);
+                }
             }
         }
     }
