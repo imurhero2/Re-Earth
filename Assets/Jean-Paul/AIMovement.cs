@@ -5,7 +5,7 @@ using UnityEngine;
 public class AIMovement : MonoBehaviour
 {
     public float speed = 20f;
-    public Transform planet;
+    private Transform planet;
 
     private Vector3 wayPoint = Vector3.zero;
     private Vector3 axis;
@@ -22,6 +22,7 @@ public class AIMovement : MonoBehaviour
 
     private void Start()
     {
+        planet = PlanetFinder.planet.transform;
         StartCoroutine(Movement());
     }
 

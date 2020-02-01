@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class AnimalMovement : MonoBehaviour
 {
-    public GameObject Planet;
     public Rigidbody rb;
 
     //public float speed = 4;
+    private Transform planetTransform;
     private float gravity = 100;
     private float distanceToGround;
     private Vector3 groundNormal;
@@ -16,28 +16,11 @@ public class AnimalMovement : MonoBehaviour
     private void Start()
     {
         rb.freezeRotation = true;
+        planetTransform = PlanetFinder.planet.transform;
     }
 
     private void Update()
     {
-        // Movement
-        //float x = Input.GetAxis("Horizontal") * Time.deltaTime * speed;
-        //float y = Input.GetAxis("Vertical") * Time.deltaTime * speed;
-
-        //transform.Translate(x, 0, y);
-
-        // Local Rotation
-        //if (Input.GetKey(KeyCode.E))
-        //{
-        //    transform.Rotate(0, 150 * Time.deltaTime, 0);
-        //}
-
-        //if (Input.GetKey(KeyCode.Q))
-        //{
-        //    transform.Rotate(0, -150 * Time.deltaTime, 0);
-        //}
-
-        // GroundControl
         RaycastHit hit = new RaycastHit();
         if (Physics.Raycast(transform.position, -transform.up, out hit, 10))
         {
@@ -55,7 +38,7 @@ public class AnimalMovement : MonoBehaviour
         }
 
         // Gravity and Rotation
-        Vector3 gravDirection = (transform.position - Planet.transform.position).normalized;
+        Vector3 gravDirection = (transform.position - planetTransform.position).normalized;
 
         if (onGround == false)
         {
