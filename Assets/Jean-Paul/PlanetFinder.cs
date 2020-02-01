@@ -6,7 +6,7 @@ public class PlanetFinder : MonoBehaviour
 {
     public static GameObject planet;
 
-    private void Start()
+    private void Awake()
     {
         planet = this.gameObject;
     }
