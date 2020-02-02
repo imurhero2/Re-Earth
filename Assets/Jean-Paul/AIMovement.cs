@@ -23,7 +23,6 @@ public class AIMovement : MonoBehaviour
     public float movementMax = 3f;
 
     public float foodSearchRadius = 30f;
-    private bool foodFound;
 
     private void Start()
     {
@@ -47,7 +46,6 @@ public class AIMovement : MonoBehaviour
                         {
                             wayPoint = collisions[i].transform.position;
                             foodTarget = collisions[i].gameObject;
-                            foodFound = true;
                         }
                     }
                 }
@@ -75,7 +73,6 @@ public class AIMovement : MonoBehaviour
                 Destroy(foodTarget);
                 aiManager.currentHunger = 0;
                 aiManager.needsFood = false;
-                foodFound = false;
                 moving = false;
             }
         }

@@ -58,7 +58,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1f835ef37fc88c143bff242346772af9, type: 2}
+  - {fileID: 2100000, guid: 1ab01c2525a87dc46918a2bac9ddcaab, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -111,7 +111,7 @@ GameObject:
   - component: {fileID: 6196425032314392082}
   - component: {fileID: 9086716851782033595}
   m_Layer: 0
-  m_Name: Carnivore
+  m_Name: Herbivore
   m_TagString: Carnivore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -157,7 +157,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1f835ef37fc88c143bff242346772af9, type: 2}
+  - {fileID: 2100000, guid: 1ab01c2525a87dc46918a2bac9ddcaab, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -269,8 +269,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hungerRate: 1
-  hungerTime: 20
-  maxHungerTime: 40
+  hungerTime: 10
+  maxHungerTime: 30
   needsFood: 0
-  foodSource: Herbivore
+  foodSource: Plant
   currentHunger: 0
