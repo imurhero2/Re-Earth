@@ -288,7 +288,7 @@ GameObject:
   - component: {fileID: 26290385}
   m_Layer: 0
   m_Name: Birch Tree(Clone) (18)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -418,6 +418,7 @@ RectTransform:
   - {fileID: 233243227}
   - {fileID: 607373988}
   - {fileID: 963614399}
+  - {fileID: 736156277}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -516,7 +517,7 @@ GameObject:
   - component: {fileID: 32701178}
   m_Layer: 0
   m_Name: Birch Tree(Clone) (4)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -639,7 +640,7 @@ GameObject:
   - component: {fileID: 43740139}
   m_Layer: 0
   m_Name: Rock(Clone) (30)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -996,7 +997,7 @@ GameObject:
   - component: {fileID: 114896376}
   m_Layer: 0
   m_Name: Birch Tree(Clone) (26)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1041,7 +1042,7 @@ GameObject:
   - component: {fileID: 140899096}
   m_Layer: 0
   m_Name: Cedar Tree(Clone) (19)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1163,7 +1164,7 @@ GameObject:
   - component: {fileID: 154969158}
   m_Layer: 0
   m_Name: Rock(Clone) (40)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1208,7 +1209,7 @@ GameObject:
   - component: {fileID: 159083245}
   m_Layer: 0
   m_Name: Cedar Tree(Clone) (3)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1253,7 +1254,7 @@ GameObject:
   - component: {fileID: 160664527}
   m_Layer: 0
   m_Name: Cedar Tree(Clone) (2)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1298,7 +1299,7 @@ GameObject:
   - component: {fileID: 187026235}
   m_Layer: 0
   m_Name: Cedar Tree(Clone)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1343,7 +1344,7 @@ GameObject:
   - component: {fileID: 191832153}
   m_Layer: 0
   m_Name: Rock(Clone) (29)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1388,7 +1389,7 @@ GameObject:
   - component: {fileID: 202861605}
   m_Layer: 0
   m_Name: Rock(Clone) (17)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1433,7 +1434,7 @@ GameObject:
   - component: {fileID: 210264929}
   m_Layer: 0
   m_Name: Cedar Tree(Clone) (29)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1556,7 +1557,7 @@ GameObject:
   - component: {fileID: 230566448}
   m_Layer: 0
   m_Name: Rock(Clone) (16)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1601,7 +1602,7 @@ GameObject:
   - component: {fileID: 232309798}
   m_Layer: 0
   m_Name: Rock(Clone) (32)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1853,7 +1854,7 @@ GameObject:
   - component: {fileID: 253965425}
   m_Layer: 0
   m_Name: Cedar Tree(Clone) (21)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2195,7 +2196,7 @@ GameObject:
   - component: {fileID: 267658640}
   m_Layer: 0
   m_Name: Cedar Tree(Clone) (34)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2240,7 +2241,7 @@ GameObject:
   - component: {fileID: 270938922}
   m_Layer: 0
   m_Name: Birch Tree(Clone) (32)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2285,7 +2286,7 @@ GameObject:
   - component: {fileID: 273823666}
   m_Layer: 0
   m_Name: Rock(Clone) (10)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2954,7 +2955,7 @@ GameObject:
   - component: {fileID: 383462155}
   m_Layer: 0
   m_Name: Birch Tree(Clone) (12)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2999,7 +3000,7 @@ GameObject:
   - component: {fileID: 392661113}
   m_Layer: 0
   m_Name: Cedar Tree(Clone) (10)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3044,7 +3045,7 @@ GameObject:
   - component: {fileID: 405508483}
   m_Layer: 0
   m_Name: Birch Tree(Clone) (16)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3089,7 +3090,7 @@ GameObject:
   - component: {fileID: 417488648}
   m_Layer: 0
   m_Name: Birch Tree(Clone) (11)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3134,7 +3135,7 @@ GameObject:
   - component: {fileID: 419466660}
   m_Layer: 0
   m_Name: Birch Tree(Clone) (28)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3320,7 +3321,7 @@ GameObject:
   - component: {fileID: 442579469}
   m_Layer: 0
   m_Name: Cedar Tree(Clone) (28)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3365,7 +3366,7 @@ GameObject:
   - component: {fileID: 445931975}
   m_Layer: 0
   m_Name: Rock(Clone) (7)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3851,7 +3852,7 @@ GameObject:
   - component: {fileID: 501457064}
   m_Layer: 0
   m_Name: Rock(Clone) (8)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3896,7 +3897,7 @@ GameObject:
   - component: {fileID: 510652954}
   m_Layer: 0
   m_Name: Rock(Clone) (18)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4019,7 +4020,7 @@ GameObject:
   - component: {fileID: 523805979}
   m_Layer: 0
   m_Name: Rock(Clone) (27)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4064,7 +4065,7 @@ GameObject:
   - component: {fileID: 527192441}
   m_Layer: 0
   m_Name: Birch Tree(Clone) (30)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4265,7 +4266,7 @@ GameObject:
   - component: {fileID: 543950855}
   m_Layer: 0
   m_Name: Rock(Clone) (37)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4621,7 +4622,7 @@ GameObject:
   - component: {fileID: 590604988}
   m_Layer: 0
   m_Name: Birch Tree(Clone) (25)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4744,7 +4745,7 @@ GameObject:
   - component: {fileID: 600937937}
   m_Layer: 0
   m_Name: Rock(Clone) (28)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4918,7 +4919,7 @@ GameObject:
   - component: {fileID: 610527524}
   m_Layer: 0
   m_Name: Rock(Clone) (14)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5119,7 +5120,7 @@ GameObject:
   - component: {fileID: 632292009}
   m_Layer: 0
   m_Name: Birch Tree(Clone) (10)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5164,7 +5165,7 @@ GameObject:
   - component: {fileID: 653721118}
   m_Layer: 0
   m_Name: Birch Tree(Clone) (24)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5287,7 +5288,7 @@ GameObject:
   - component: {fileID: 667105125}
   m_Layer: 0
   m_Name: Birch Tree(Clone) (33)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5332,7 +5333,7 @@ GameObject:
   - component: {fileID: 683985014}
   m_Layer: 0
   m_Name: Rock(Clone) (4)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5404,9 +5405,6 @@ MonoBehaviour:
   defaultLayer:
     serializedVersion: 2
     m_Bits: 1
-  placementAudio:
-  - {fileID: 264359030}
-  - {fileID: 264359029}
 --- !u!4 &690833287
 Transform:
   m_ObjectHideFlags: 0
@@ -5481,7 +5479,7 @@ GameObject:
   - component: {fileID: 698386724}
   m_Layer: 0
   m_Name: Cedar Tree(Clone) (1)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5526,7 +5524,7 @@ GameObject:
   - component: {fileID: 704209526}
   m_Layer: 0
   m_Name: Cedar Tree(Clone) (4)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5649,7 +5647,7 @@ GameObject:
   - component: {fileID: 714769861}
   m_Layer: 0
   m_Name: Birch Tree(Clone) (14)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5694,7 +5692,7 @@ GameObject:
   - component: {fileID: 718974368}
   m_Layer: 0
   m_Name: Birch Tree(Clone) (31)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5739,7 +5737,7 @@ GameObject:
   - component: {fileID: 730573592}
   m_Layer: 0
   m_Name: Cedar Tree(Clone) (27)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5850,6 +5848,135 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 732416139}
   m_Mesh: {fileID: 4068373912626513877, guid: 1c77ebe5951852541901d682c0c20844, type: 3}
+--- !u!1 &736156276
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 736156277}
+  - component: {fileID: 736156280}
+  - component: {fileID: 736156279}
+  - component: {fileID: 736156278}
+  m_Layer: 5
+  m_Name: T-Rex
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &736156277
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 736156276}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1712268420}
+  m_Father: {fileID: 28438770}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -812, y: 126}
+  m_SizeDelta: {x: 221.7, y: 94.6}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &736156278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 736156276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0, g: 0.5058824, b: 0.7372549, a: 0.54509807}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 736156279}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 690833288}
+        m_MethodName: SelectDinosaur
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &736156279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 736156276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &736156280
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 736156276}
+  m_CullTransparentMesh: 0
 --- !u!1 &742854467
 GameObject:
   m_ObjectHideFlags: 0
@@ -5862,7 +5989,7 @@ GameObject:
   - component: {fileID: 742854469}
   m_Layer: 0
   m_Name: Cedar Tree(Clone) (8)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6089,7 +6216,7 @@ GameObject:
   - component: {fileID: 749040313}
   m_Layer: 0
   m_Name: Birch Tree(Clone) (19)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6368,7 +6495,7 @@ GameObject:
   - component: {fileID: 794686666}
   m_Layer: 0
   m_Name: Birch Tree(Clone) (9)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6413,7 +6540,7 @@ GameObject:
   - component: {fileID: 820494090}
   m_Layer: 0
   m_Name: Cedar Tree(Clone) (30)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6536,7 +6663,7 @@ GameObject:
   - component: {fileID: 832942454}
   m_Layer: 0
   m_Name: Rock(Clone) (25)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6892,7 +7019,7 @@ GameObject:
   - component: {fileID: 868271028}
   m_Layer: 0
   m_Name: Rock(Clone) (20)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7015,7 +7142,7 @@ GameObject:
   - component: {fileID: 878252849}
   m_Layer: 0
   m_Name: Birch Tree(Clone) (27)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7060,7 +7187,7 @@ GameObject:
   - component: {fileID: 882673830}
   m_Layer: 0
   m_Name: Rock(Clone) (35)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7337,7 +7464,7 @@ GameObject:
   - component: {fileID: 915815786}
   m_Layer: 0
   m_Name: Rock(Clone)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7538,7 +7665,7 @@ GameObject:
   - component: {fileID: 926735540}
   m_Layer: 0
   m_Name: Cedar Tree(Clone) (16)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7583,7 +7710,7 @@ GameObject:
   - component: {fileID: 941815308}
   m_Layer: 0
   m_Name: Rock(Clone) (33)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7862,7 +7989,7 @@ GameObject:
   - component: {fileID: 947710062}
   m_Layer: 0
   m_Name: Birch Tree(Clone) (2)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7907,7 +8034,7 @@ GameObject:
   - component: {fileID: 949166804}
   m_Layer: 0
   m_Name: Rock(Clone) (24)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7952,7 +8079,7 @@ GameObject:
   - component: {fileID: 953403356}
   m_Layer: 0
   m_Name: Cedar Tree(Clone) (13)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8126,7 +8253,7 @@ GameObject:
   - component: {fileID: 974217552}
   m_Layer: 0
   m_Name: Rock(Clone) (11)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8171,7 +8298,7 @@ GameObject:
   - component: {fileID: 989325546}
   m_Layer: 0
   m_Name: Cedar Tree(Clone) (11)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8247,7 +8374,7 @@ GameObject:
   - component: {fileID: 1005843440}
   m_Layer: 0
   m_Name: Rock(Clone) (39)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8292,7 +8419,7 @@ GameObject:
   - component: {fileID: 1006168156}
   m_Layer: 0
   m_Name: Rock(Clone) (2)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8472,7 +8599,7 @@ GameObject:
   - component: {fileID: 1042633805}
   m_Layer: 0
   m_Name: Cedar Tree(Clone) (20)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8673,7 +8800,7 @@ GameObject:
   - component: {fileID: 1081193660}
   m_Layer: 0
   m_Name: Birch Tree(Clone) (22)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8718,7 +8845,7 @@ GameObject:
   - component: {fileID: 1112464907}
   m_Layer: 0
   m_Name: Cedar Tree(Clone) (6)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8763,7 +8890,7 @@ GameObject:
   - component: {fileID: 1113181995}
   m_Layer: 0
   m_Name: Cedar Tree(Clone) (14)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8808,7 +8935,7 @@ GameObject:
   - component: {fileID: 1113367260}
   m_Layer: 0
   m_Name: Cedar Tree(Clone) (31)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8853,7 +8980,7 @@ GameObject:
   - component: {fileID: 1118087809}
   m_Layer: 0
   m_Name: Cedar Tree(Clone) (17)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9183,7 +9310,7 @@ GameObject:
   - component: {fileID: 1161245993}
   m_Layer: 0
   m_Name: Rock(Clone) (9)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9228,7 +9355,7 @@ GameObject:
   - component: {fileID: 1161266088}
   m_Layer: 0
   m_Name: Birch Tree(Clone) (13)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9429,7 +9556,7 @@ GameObject:
   - component: {fileID: 1183946811}
   m_Layer: 0
   m_Name: Cedar Tree(Clone) (33)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9552,7 +9679,7 @@ GameObject:
   - component: {fileID: 1193947576}
   m_Layer: 0
   m_Name: Rock(Clone) (31)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9675,7 +9802,7 @@ GameObject:
   - component: {fileID: 1205800667}
   m_Layer: 0
   m_Name: Rock(Clone) (1)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9875,7 +10002,7 @@ GameObject:
   - component: {fileID: 1235647394}
   m_Layer: 0
   m_Name: Birch Tree(Clone) (20)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9920,7 +10047,7 @@ GameObject:
   - component: {fileID: 1257091921}
   m_Layer: 0
   m_Name: Rock(Clone) (3)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9965,7 +10092,7 @@ GameObject:
   - component: {fileID: 1275023440}
   m_Layer: 0
   m_Name: Rock(Clone) (19)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10010,7 +10137,7 @@ GameObject:
   - component: {fileID: 1275120420}
   m_Layer: 0
   m_Name: Rock(Clone) (21)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10055,7 +10182,7 @@ GameObject:
   - component: {fileID: 1278817858}
   m_Layer: 0
   m_Name: Rock(Clone) (36)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10178,7 +10305,7 @@ GameObject:
   - component: {fileID: 1282758576}
   m_Layer: 0
   m_Name: Birch Tree(Clone) (5)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10301,7 +10428,7 @@ GameObject:
   - component: {fileID: 1320289718}
   m_Layer: 0
   m_Name: Rock(Clone) (22)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10580,7 +10707,7 @@ GameObject:
   - component: {fileID: 1357661559}
   m_Layer: 0
   m_Name: Rock(Clone) (23)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10703,7 +10830,7 @@ GameObject:
   - component: {fileID: 1387285081}
   m_Layer: 0
   m_Name: Cedar Tree(Clone) (15)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10904,7 +11031,7 @@ GameObject:
   - component: {fileID: 1405638797}
   m_Layer: 0
   m_Name: Birch Tree(Clone) (6)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10949,7 +11076,7 @@ GameObject:
   - component: {fileID: 1406303749}
   m_Layer: 0
   m_Name: Rock(Clone) (6)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11072,7 +11199,7 @@ GameObject:
   - component: {fileID: 1448883898}
   m_Layer: 0
   m_Name: Birch Tree(Clone) (7)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11429,7 +11556,7 @@ GameObject:
   - component: {fileID: 1528081141}
   m_Layer: 0
   m_Name: Rock(Clone) (41)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11630,7 +11757,7 @@ GameObject:
   - component: {fileID: 1543217190}
   m_Layer: 0
   m_Name: Cedar Tree(Clone) (5)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11753,7 +11880,7 @@ GameObject:
   - component: {fileID: 1554281949}
   m_Layer: 0
   m_Name: Birch Tree(Clone)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11954,7 +12081,7 @@ GameObject:
   - component: {fileID: 1574412104}
   m_Layer: 0
   m_Name: Cedar Tree(Clone) (23)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11999,7 +12126,7 @@ GameObject:
   - component: {fileID: 1584589234}
   m_Layer: 0
   m_Name: Birch Tree(Clone) (1)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12278,7 +12405,7 @@ GameObject:
   - component: {fileID: 1600638018}
   m_Layer: 0
   m_Name: Birch Tree(Clone) (15)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12323,7 +12450,7 @@ GameObject:
   - component: {fileID: 1611690320}
   m_Layer: 0
   m_Name: Birch Tree(Clone) (29)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12758,7 +12885,7 @@ GameObject:
   - component: {fileID: 1699213123}
   m_Layer: 0
   m_Name: Cedar Tree(Clone) (7)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12881,7 +13008,7 @@ GameObject:
   - component: {fileID: 1707933910}
   m_Layer: 0
   m_Name: Rock(Clone) (13)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12914,6 +13041,83 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.5, y: 1, z: 1.5}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1712268419
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1712268420}
+  - component: {fileID: 1712268422}
+  - component: {fileID: 1712268421}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1712268420
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712268419}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 736156277}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1712268421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712268419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 38
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 3
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: T-Rex
+--- !u!222 &1712268422
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712268419}
+  m_CullTransparentMesh: 0
 --- !u!1 &1712430759
 GameObject:
   m_ObjectHideFlags: 0
@@ -12926,7 +13130,7 @@ GameObject:
   - component: {fileID: 1712430761}
   m_Layer: 0
   m_Name: Cedar Tree(Clone) (9)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12971,7 +13175,7 @@ GameObject:
   - component: {fileID: 1721934953}
   m_Layer: 0
   m_Name: Rock(Clone) (26)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13016,7 +13220,7 @@ GameObject:
   - component: {fileID: 1736474039}
   m_Layer: 0
   m_Name: Cedar Tree(Clone) (22)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13061,7 +13265,7 @@ GameObject:
   - component: {fileID: 1746435072}
   m_Layer: 0
   m_Name: Rock(Clone) (38)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13431,7 +13635,7 @@ GameObject:
   - component: {fileID: 1829017664}
   m_Layer: 0
   m_Name: Rock(Clone) (15)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14100,7 +14304,7 @@ GameObject:
   - component: {fileID: 1923861433}
   m_Layer: 0
   m_Name: Birch Tree(Clone) (17)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14301,7 +14505,7 @@ GameObject:
   - component: {fileID: 1936079772}
   m_Layer: 0
   m_Name: Cedar Tree(Clone) (18)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14346,7 +14550,7 @@ GameObject:
   - component: {fileID: 1939485192}
   m_Layer: 0
   m_Name: Birch Tree(Clone) (8)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14469,7 +14673,7 @@ GameObject:
   - component: {fileID: 1943428044}
   m_Layer: 0
   m_Name: Birch Tree(Clone) (3)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14514,7 +14718,7 @@ GameObject:
   - component: {fileID: 1943451831}
   m_Layer: 0
   m_Name: Cedar Tree(Clone) (24)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14559,7 +14763,7 @@ GameObject:
   - component: {fileID: 1961163302}
   m_Layer: 0
   m_Name: Cedar Tree(Clone) (12)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14670,7 +14874,7 @@ GameObject:
   - component: {fileID: 1995244385}
   m_Layer: 0
   m_Name: Rock(Clone) (12)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14715,7 +14919,7 @@ GameObject:
   - component: {fileID: 2024613314}
   m_Layer: 0
   m_Name: Cedar Tree(Clone) (32)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15122,7 +15326,7 @@ GameObject:
   - component: {fileID: 2062133773}
   m_Layer: 0
   m_Name: Birch Tree(Clone) (23)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15323,7 +15527,7 @@ GameObject:
   - component: {fileID: 2069402842}
   m_Layer: 0
   m_Name: Rock(Clone) (5)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15446,7 +15650,7 @@ GameObject:
   - component: {fileID: 2091183652}
   m_Layer: 0
   m_Name: Cedar Tree(Clone) (25)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15569,7 +15773,7 @@ GameObject:
   - component: {fileID: 2099970780}
   m_Layer: 0
   m_Name: Cedar Tree(Clone) (26)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15692,7 +15896,7 @@ GameObject:
   - component: {fileID: 2112031328}
   m_Layer: 0
   m_Name: Birch Tree(Clone) (21)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15737,7 +15941,7 @@ GameObject:
   - component: {fileID: 2118218934}
   m_Layer: 0
   m_Name: Rock(Clone) (34)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

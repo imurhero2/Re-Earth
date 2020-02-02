@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 5410862799397346996}
   m_Layer: 0
   m_Name: Dinosaur
-  m_TagString: Carnivore
+  m_TagString: Dinosaur
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65,7 +65,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2, y: 4, z: 6}
+  m_Size: {x: 2, y: 4, z: 4}
   m_Center: {x: 0, y: 0, z: 0.3}
 --- !u!65 &8314843746461921554
 BoxCollider:
@@ -79,7 +79,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1.5, y: 0.5, z: 1.5}
-  m_Center: {x: 0, y: 0, z: 2}
+  m_Center: {x: 0, y: -2, z: 3}
 --- !u!114 &4284053654948364280
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -129,10 +129,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hungerRate: 1
-  hungerTime: 20
-  maxHungerTime: 40
+  hungerTime: 0
+  maxHungerTime: 10000
   needsFood: 0
-  foodSource: Herbivore
+  foodSource: Everything
   currentHunger: 0
 --- !u!114 &5410862799397346996
 MonoBehaviour:

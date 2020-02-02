@@ -8,6 +8,8 @@ TagManager:
   - Plant
   - Herbivore
   - Carnivore
+  - Dinosaur
+  - Obstacle
   layers:
   - Default
   - TransparentFX

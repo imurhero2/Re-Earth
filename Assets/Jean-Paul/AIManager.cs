@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class AIManager : MonoBehaviour
 {
+	public static float carnivoreCounter;
     public float hungerRate = 1;
     public float hungerTime = 10;
     public float maxHungerTime = 30;
@@ -28,7 +29,11 @@ public class AIManager : MonoBehaviour
                 break;
             case "Carnivore":
                 foodSource = "Herbivore";
+				carnivoreCounter++;
                 break;
+			case "Dinosaur":
+				foodSource = "Everything";
+				break;
             default:
                 break;
         }

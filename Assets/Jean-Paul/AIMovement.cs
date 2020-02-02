@@ -24,7 +24,7 @@ public class AIMovement : MonoBehaviour
 
     public float foodSearchRadius = 30f;
 
-    private void Start()
+	private void Start()
     {
         planet = PlanetFinder.planet.transform;
         StartCoroutine(WanderMovement());
@@ -34,26 +34,34 @@ public class AIMovement : MonoBehaviour
     {
         while (true)
         {
-            yield return new WaitForSeconds(Random.Range(waypointMin, waypointMax));
-            if (aiManager.needsFood)
-            {
-                var collisions = Physics.OverlapSphere(transform.position, foodSearchRadius, defaultLayer);
-                if (collisions.Length > 1)
-                {
-                    for (int i = 0; i < collisions.Length; i++)
-                    {
-                        if (collisions[i].tag == aiManager.foodSource)
-                        {
-                            wayPoint = collisions[i].transform.position;
-                            foodTarget = collisions[i].gameObject;
-                        }
-                    }
-                }
-            }
-            else
-            {
-                wayPoint = Random.onUnitSphere * radius + planet.position;
-            }
+        yield return new WaitForSeconds(Random.Range(waypointMin, waypointMax));
+			if (aiManager.needsFood)
+			{
+				var collisions = Physics.OverlapSphere(transform.position, foodSearchRadius, defaultLayer);
+				if (collisions.Length > 1)
+				{
+					for (int i = 0; i < collisions.Length; i++)
+					{
+						if (aiManager.foodSource == "Everything")
+						{
+							if (collisions[i].tag == "Herbivore" || collisions[i].tag == "Carnivore" || collisions[i].tag == "Plant" || collisions[i].tag == "Obstacle")
+							{
+								wayPoint = collisions[i].transform.position;
+								foodTarget = collisions[i].gameObject;
+							}
+						}
+						else if (collisions[i].tag == aiManager.foodSource)
+						{
+							wayPoint = collisions[i].transform.position;
+							foodTarget = collisions[i].gameObject;
+						}
+					}
+				}
+			}
+			else
+			{
+				wayPoint = Random.onUnitSphere * radius + planet.position;
+			}
             Wander();
             moving = true;
             if (!aiManager.needsFood)

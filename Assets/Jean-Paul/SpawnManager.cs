@@ -18,7 +18,15 @@ public class SpawnManager : MonoBehaviour
     public GameObject bushPrefab;
     public static int essenceCost;
 
-    public void SelectFlower()
+	private void Update()
+	{
+		if (Input.GetKeyDown(KeyCode.C))
+		{
+			Essence.essenceCount += 1000;
+		}
+	}
+
+	public void SelectFlower()
     {
 		objectplacement.objectsToSpawn.Clear();
         objectplacement.objectsToSpawn.Add(flowerPrefab);
