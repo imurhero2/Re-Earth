@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class ObjectPlacement : MonoBehaviour
 {
-    public GameObject objectToSpawn;
+    public List<GameObject> objectsToSpawn;
     public Transform planet;
     public LayerMask planetLayer;
     public LayerMask defaultLayer;
@@ -29,7 +29,7 @@ public class ObjectPlacement : MonoBehaviour
                     {
                         // Calculate appropriate rotation based on planet.
                         Quaternion toRotation = Quaternion.FromToRotation(transform.up, hit.normal) * transform.rotation;
-
+						var objectToSpawn = objectsToSpawn[Random.Range(0, objectsToSpawn.Count)];
                         // Spawn object
                         Instantiate(objectToSpawn, hit.point, toRotation);
                         Essence.essenceCount -= SpawnManager.essenceCost;
