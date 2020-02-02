@@ -58,7 +58,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 1f835ef37fc88c143bff242346772af9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -109,9 +109,10 @@ GameObject:
   - component: {fileID: 2156760159205228796}
   - component: {fileID: 6196425032314392086}
   - component: {fileID: 6196425032314392082}
+  - component: {fileID: 9086716851782033595}
   m_Layer: 0
-  m_Name: Animal
-  m_TagString: Untagged
+  m_Name: Carnivore
+  m_TagString: Carnivore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -123,7 +124,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6196425032314392087}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 8.299999, y: 125.8, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
@@ -156,7 +157,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1ab01c2525a87dc46918a2bac9ddcaab, type: 2}
+  - {fileID: 2100000, guid: 1f835ef37fc88c143bff242346772af9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -214,7 +215,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6196425032314392087}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1.5, y: 0.5, z: 1.5}
@@ -231,8 +232,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3903223a6a2f6148a4ac15c7d966716, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Planet: {fileID: 0}
   rb: {fileID: 6196425032314392093}
+  gravity: 1
 --- !u!114 &6196425032314392082
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -245,9 +246,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8887b22708bd0eb45a995297a0953616, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  aiManager: {fileID: 9086716851782033595}
   speed: 10
-  planet: {fileID: 0}
+  defaultLayer:
+    serializedVersion: 2
+    m_Bits: 1
   waypointMin: 1
   waypointMax: 3
   movementMin: 1
   movementMax: 3
+  foodSearchRadius: 50
+--- !u!114 &9086716851782033595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6196425032314392087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ce1f0cb327de2646842d2548472d00d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hungerRate: 1
+  hungerTime: 20
+  maxHungerTime: 40
+  needsFood: 0
+  foodSource: Herbivore
+  currentHunger: 0

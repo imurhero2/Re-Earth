@@ -71,7 +71,7 @@ public class Orbit : MonoBehaviour
 
         }
 
-        if (Input.GetMouseButton(2))
+        if (Input.GetMouseButton(1))
         {
             isRotating = true;
 
