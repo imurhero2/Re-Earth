@@ -799,7 +799,8 @@ MonoBehaviour:
   backgroundSlider: {fileID: 920151472}
   soundEffectsSlider: {fileID: 1211053544}
   backgroundAudio: {fileID: 89974509}
-  soundEffectsAudio: []
+  soundEffectsAudio:
+  - {fileID: 89974509}
 --- !u!4 &461265759
 Transform:
   m_ObjectHideFlags: 0
