@@ -15,7 +15,7 @@ public class ObjectPlacement : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            if (Essence.essenceCount > 0)
+            if (Essence.essenceCount > SpawnManager.essenceCost)
             {
                 // get raycast hit based on mouse position.
                 Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -32,7 +32,7 @@ public class ObjectPlacement : MonoBehaviour
 
                         // Spawn object
                         Instantiate(objectToSpawn, hit.point, toRotation);
-                        Essence.essenceCount -= 1;
+                        Essence.essenceCount -= SpawnManager.essenceCost;
                        
                     }
                 }
