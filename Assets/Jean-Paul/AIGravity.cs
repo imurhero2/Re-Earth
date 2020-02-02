@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AnimalMovement : MonoBehaviour
+public class AIGravity : MonoBehaviour
 {
     public Rigidbody rb;
 
     //public float speed = 4;
     private Transform planetTransform;
-    private float gravity = 100;
+    public float gravity = 100;
     private float distanceToGround;
     private Vector3 groundNormal;
     private bool onGround;
