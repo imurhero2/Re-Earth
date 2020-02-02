@@ -593,7 +593,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45c23410b78b8d14ab729c805b3262d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToSpawn: {fileID: 7429412294009391478, guid: 63d0b1e55ce9f754a87761f6c2de735a,
+  objectToSpawn: {fileID: 5976063933628297638, guid: 63d0b1e55ce9f754a87761f6c2de735a,
     type: 3}
   planet: {fileID: 549028989}
   planetLayer:
@@ -629,7 +629,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectplacement: {fileID: 690833286}
-  treePrefab: {fileID: 7429412294009391478, guid: 63d0b1e55ce9f754a87761f6c2de735a,
+  treePrefab: {fileID: 5976063933628297638, guid: 63d0b1e55ce9f754a87761f6c2de735a,
     type: 3}
   herbivorePrefab: {fileID: 6196425032314392087, guid: fbc0652a33ccdb1439d5ab6fd4c9c176,
     type: 3}
