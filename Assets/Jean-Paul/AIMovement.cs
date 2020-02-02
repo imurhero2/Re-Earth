@@ -4,12 +4,15 @@ using UnityEngine;
 
 public class AIMovement : MonoBehaviour
 {
+    public AIManager aiManager;
     public float speed = 20f;
+    public LayerMask defaultLayer;
     private Transform planet;
+    private GameObject foodTarget;
 
-    private Vector3 wayPoint = Vector3.zero;
+    public static Vector3 wayPoint = Vector3.zero;
     private Vector3 axis;
-    private float radius = 100f;
+    private readonly float radius = 100f;
     private bool moving = false;
     [Space]
     [Header("AI Values")]
@@ -19,24 +22,62 @@ public class AIMovement : MonoBehaviour
     public float movementMin = 1f;
     public float movementMax = 3f;
 
+    public float foodSearchRadius = 30f;
+    private bool foodFound;
 
     private void Start()
     {
         planet = PlanetFinder.planet.transform;
-        StartCoroutine(Movement());
+        StartCoroutine(WanderMovement());
     }
 
-    IEnumerator Movement()
+    IEnumerator WanderMovement()
     {
         while (true)
         {
             yield return new WaitForSeconds(Random.Range(waypointMin, waypointMax));
-            // get a point on the sphere.
-            wayPoint = Random.onUnitSphere * radius + planet.position;
+            if (aiManager.needsFood)
+            {
+                var collisions = Physics.OverlapSphere(transform.position, foodSearchRadius, defaultLayer);
+                if (collisions.Length > 1)
+                {
+                    for (int i = 0; i < collisions.Length; i++)
+                    {
+                        if (collisions[i].tag == aiManager.foodSource)
+                        {
+                            wayPoint = collisions[i].transform.position;
+                            foodTarget = collisions[i].gameObject;
+                            foodFound = true;
+                        }
+                    }
+                }
+            }
+            else
+            {
+                wayPoint = Random.onUnitSphere * radius + planet.position;
+            }
             Wander();
             moving = true;
-            yield return new WaitForSeconds(Random.Range(movementMin, movementMax));
-            moving = false;
+            if (!aiManager.needsFood)
+            {
+                yield return new WaitForSeconds(Random.Range(movementMin, movementMax));
+                moving = false;
+            }
+        }
+    }
+
+    private void FixedUpdate()
+    {
+        if (foodTarget != null)
+        {
+            if (Vector3.Distance(transform.position, foodTarget.transform.position) < 10)
+            {
+                Destroy(foodTarget);
+                aiManager.currentHunger = 0;
+                aiManager.needsFood = false;
+                foodFound = false;
+                moving = false;
+            }
         }
     }
 
