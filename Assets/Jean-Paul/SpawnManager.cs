@@ -28,6 +28,7 @@ public class SpawnManager : MonoBehaviour
 	public void SelectPlant()
 	{
 		objectplacement.objectsToSpawn.Clear();
+		objectplacement.objectsToSpawn.Add(flowerPrefab);
 		objectplacement.objectsToSpawn.Add(plantPrefab);
 		essenceCost = 5;
 	}
@@ -37,7 +38,7 @@ public class SpawnManager : MonoBehaviour
 		objectplacement.objectsToSpawn.Clear();
 		objectplacement.objectsToSpawn.Add(bunnyPrefab);
 		objectplacement.objectsToSpawn.Add(sheepPrefab);
-		essenceCost = 0; //20
+		essenceCost = 20;
     }
 
     public void SelectCarnivore()
@@ -45,7 +46,7 @@ public class SpawnManager : MonoBehaviour
 		objectplacement.objectsToSpawn.Clear();
 		objectplacement.objectsToSpawn.Add(foxPrefab);
 		objectplacement.objectsToSpawn.Add(bearPrefab);
-		essenceCost = 0; //100
+		essenceCost = 100;
     }
 
 	public void SelectDinosaur()
