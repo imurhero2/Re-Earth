@@ -70,10 +70,19 @@ public class AIMovement : MonoBehaviour
         {
             if (Vector3.Distance(transform.position, foodTarget.transform.position) < 10)
             {
+                if (foodTarget.tag == "Herbivore")
+                {
+                    Essence.essenceCount += 30;
+                }
+                else if(foodTarget.tag == "Plant")
+                {
+                    Essence.essenceCount += 10;
+                }
                 Destroy(foodTarget);
                 aiManager.currentHunger = 0;
                 aiManager.needsFood = false;
                 moving = false;
+               
             }
         }
     }

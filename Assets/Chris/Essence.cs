@@ -9,10 +9,11 @@ public class Essence : MonoBehaviour
     public static int essenceCount;
     private float seconds;
     private float interval = 1F;
+    public static int bonus;
 
     void Start()
     {
-        essenceCount = 0;
+        essenceCount = 30;
         EssenceText.text = "Essence: " + essenceCount.ToString();
     }
 
@@ -22,7 +23,7 @@ public class Essence : MonoBehaviour
 
         if (seconds >= interval)
         {
-            essenceCount++;
+            essenceCount = essenceCount + 1 + bonus;
             seconds = 0;
         }
 

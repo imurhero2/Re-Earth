@@ -110,6 +110,7 @@ GameObject:
   - component: {fileID: 6196425032314392086}
   - component: {fileID: 6196425032314392082}
   - component: {fileID: 9086716851782033595}
+  - component: {fileID: 2710362859080871770}
   m_Layer: 0
   m_Name: Carnivore
   m_TagString: Carnivore
@@ -274,3 +275,15 @@ MonoBehaviour:
   needsFood: 0
   foodSource: Herbivore
   currentHunger: 0
+--- !u!114 &2710362859080871770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6196425032314392087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd3c6bbdb990ad341b5571c606c90a0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
