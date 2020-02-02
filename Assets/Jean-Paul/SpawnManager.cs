@@ -10,6 +10,7 @@ public class SpawnManager : MonoBehaviour
     public GameObject bunnyPrefab;
     public GameObject sheepPrefab;
     public GameObject foxPrefab;
+	public GameObject wolfPrefab;
     public GameObject bearPrefab;
     public GameObject dinosaurPrefab;
     public GameObject birchTreePrefab;
@@ -53,6 +54,7 @@ public class SpawnManager : MonoBehaviour
     {
 		objectplacement.objectsToSpawn.Clear();
 		objectplacement.objectsToSpawn.Add(foxPrefab);
+		objectplacement.objectsToSpawn.Add(wolfPrefab);
 		objectplacement.objectsToSpawn.Add(bearPrefab);
 		essenceCost = 100;
     }
