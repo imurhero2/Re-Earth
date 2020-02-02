@@ -7,6 +7,7 @@ public class AIMovement : MonoBehaviour
     public AIManager aiManager;
     public float speed = 20f;
     public LayerMask defaultLayer;
+	public GameObject hungerIcon;
     private Transform planet;
     private GameObject foodTarget;
 
@@ -26,6 +27,7 @@ public class AIMovement : MonoBehaviour
 
 	private void Start()
     {
+		hungerIcon.SetActive(false);
         planet = PlanetFinder.planet.transform;
         StartCoroutine(WanderMovement());
     }
@@ -37,6 +39,7 @@ public class AIMovement : MonoBehaviour
         yield return new WaitForSeconds(Random.Range(waypointMin, waypointMax));
 			if (aiManager.needsFood)
 			{
+				hungerIcon.SetActive(true);
 				var collisions = Physics.OverlapSphere(transform.position, foodSearchRadius, defaultLayer);
 				if (collisions.Length > 1)
 				{
@@ -90,8 +93,9 @@ public class AIMovement : MonoBehaviour
                 aiManager.currentHunger = 0;
                 aiManager.needsFood = false;
                 moving = false;
-               
-            }
+				hungerIcon.SetActive(false);
+
+			}
         }
     }
 

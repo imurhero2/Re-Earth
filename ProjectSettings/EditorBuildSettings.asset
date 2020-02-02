@@ -5,13 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Alexis/MainMenu.unity
     guid: ccb6f02c6085f244e9d8b769bb6673c2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Alexis/GameLevel1.unity
     guid: 1e356a5bf2d026b4fb54300558e38808
   - enabled: 0
     path: Assets/Alexis/Jean-Paul's Scene 1.unity
     guid: c2887d62da758a944b8be610e65c541c
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: b646d974326569843919c17ce46ae4ee
+  - enabled: 1
+    path: Assets/Jean-Paul/Jean-Paul's Scene.unity
+    guid: 174ad1c8b26553d4ca06b2b2cf2922fb
   m_configObjects: {}
