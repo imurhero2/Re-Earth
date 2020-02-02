@@ -9514,7 +9514,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 690833288}
-        m_MethodName: SelectRock
+        m_MethodName: SelectBush
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
