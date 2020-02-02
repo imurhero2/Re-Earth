@@ -14,7 +14,7 @@ public class Essence : MonoBehaviour
     void Start()
     {
         essenceCount = 30;
-        EssenceText.text = "Essence: " + essenceCount.ToString();
+        EssenceText.text = essenceCount.ToString();
     }
 
     void Update()
@@ -25,9 +25,8 @@ public class Essence : MonoBehaviour
         {
             essenceCount = essenceCount + 1 + bonus;
             seconds = 0;
+			EssenceText.text = essenceCount.ToString();
         }
-
-        EssenceText.text = "Essence: " + essenceCount.ToString();
     }
     
 }
