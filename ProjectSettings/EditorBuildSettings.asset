@@ -21,7 +21,7 @@ EditorBuildSettings:
     path: Assets/Jean-Paul/Jean-Paul's Scene.unity
     guid: 174ad1c8b26553d4ca06b2b2cf2922fb
   - enabled: 1
-    path: Assets/Scenes/Main Menu.unity
+    path: Assets/Jean-Paul/Backup Menu.unity
     guid: 5c31881648cc29248946fdff34da98e7
   - enabled: 1
     path: Assets/Scenes/Main Scene.unity
